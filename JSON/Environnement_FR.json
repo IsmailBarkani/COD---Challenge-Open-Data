@@ -1,0 +1,1006 @@
+[
+    {
+        "City": "Nancy",
+        "code": "54003",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Grenoble",
+        "code": "38001",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Rouen",
+        "code": "76003",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 5
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Metz",
+        "code": "57009",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Marseille",
+        "code": "13003",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Lyon",
+        "code": "69001",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Amiens",
+        "code": "80002",
+        "Info": [
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Bordeaux",
+        "code": "33002",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Paris",
+        "code": "75001",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 6
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Nantes",
+        "code": "44002",
+        "Info": [
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 2
+            }
+        ]
+    },
+    {
+        "City": "Maubeuge",
+        "code": "59392",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Arras",
+        "code": "62001",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Lille",
+        "code": "59005",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "B\u00e9thune",
+        "code": "62119",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Creil",
+        "code": "60175",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 4
+            }
+        ]
+    },
+    {
+        "City": "Saint-Quentin",
+        "code": "02003",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Saint-Omer",
+        "code": "62005",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Dunkerque",
+        "code": "59004",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Douai-Lens",
+        "code": "59178",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Boulogne-sur-Mer",
+        "code": "62003",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 2
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Calais",
+        "code": "62006",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 5
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    },
+    {
+        "City": "Valenciennes",
+        "code": "59006",
+        "Info": [
+            {
+                "Year_Month": "2019-12",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-01",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-02",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-03",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-04",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-05",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-06",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-07",
+                "ATMo": 3
+            },
+            {
+                "Year_Month": "2020-08",
+                "ATMo": 4
+            },
+            {
+                "Year_Month": "2020-09",
+                "ATMo": 3
+            }
+        ]
+    }
+]
