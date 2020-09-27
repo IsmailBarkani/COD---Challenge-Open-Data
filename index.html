@@ -6,6 +6,180 @@
     <title>Confi-Impact</title>
 </head>
 <body>
+    /* CHOMAGE SECTION */
+    <style>
+			.content {
+	            max-width: 800px;
+	            margin: auto;
+	            padding: 16px 32px;
+            }
+
+            .ageSelect{
+	            margin:auto;
+	            width: 130px;
+	            height: 40px;
+	            border-radius: 8px;
+            }
+	</style>
+	<section>
+			<div class="content">
+				<div class="toolbar">
+					<select name="age" id="age" onchange="ChangeChart()" class="ageSelect">
+						<option value="">section d'age</option>
+						<option value="moins 25 ans">moins 25 ans</option>
+						<option value="plus 25 ans">plus 25 ans</option>
+						<option value="tous">tous</option>
+					</select>
+				</div>
+				<div class="wrapper">
+					<canvas id="myChart" ></canvas>
+				</div>
+			</div>
+
+	<script>
+		var labels = [];
+		var dataT = [];
+		var dataH = [];
+		var dataF = [];
+		var dataTJ= [];
+		var dataHJ = [];
+		var dataHV = [];
+		var dataTV= [];
+		var dataFJ = [];
+		var dataFV = [];
+	
+	$.getJSON("https://raw.githubusercontent.com/IsmailBarkani/COD/master/JSON/Chomage.json?token=AOJP73CFGICABNPDTJUCVKK7PIUKA", function(data) {
+	
+	$.each(data, function(index, record) {
+		labels.push(record.Date);
+		var switcher = 0;
+		$.each(record.Data, function(key, value) {
+			switch (switcher)
+			{
+				case 0 : 
+					dataT.push(value.Total);
+					dataH.push(Number((value.Total * value[Object.keys(value)[2]]).toFixed(2)));
+					dataF.push(Number((value.Total * value[Object.keys(value)[3]]).toFixed(2)));
+					switcher++;
+					break;
+				case 1:
+					dataTJ.push(value.Total);
+					dataHJ.push(Number((value.Total * value[Object.keys(value)[2]]).toFixed(2)));
+					dataFJ.push(Number((value.Total * value[Object.keys(value)[3]]).toFixed(2)));
+					switcher++;
+					break;	
+				case 2:
+					dataTV.push(value.Total);
+					dataHV.push(Number((value.Total * value[Object.keys(value)[2]]).toFixed(2)));
+					dataFV.push(Number((value.Total * value[Object.keys(value)[3]]).toFixed(2)));
+					switcher++;
+					break;	
+			}
+			
+		});
+	});
+   
+	});
+	var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'line',
+      "data": {
+         labels: labels,
+         datasets: [
+		 {
+			label:'Homme',
+            backgroundColor: 'rgba(54, 162, 235,0.8)',
+            borderColor: 'rgb(54, 162, 235)',
+			pointBorderColor: 'rgba(17,50,96,0.7)',
+			pointBackgroundColor: 'rgba(80,120,200,0.8)',
+			pointBorderWidth: 1,
+			pointHoverRadius:5,
+			fill : false,
+			hidden : true,
+            data: dataH
+         },
+		 {
+			label:'Femme',
+            backgroundColor: 'rgba(255, 99, 132,0.8)',
+            borderColor: 'rgb(255, 99, 132)',
+			pointBorderColor: 'rgba(250,70,100,0.7)',
+			pointBackgroundColor: 'rgba(255,190,200,0.8)',
+			pointBorderWidth: 1,
+			pointHoverRadius:5,
+			fill : false,
+			hidden : true,
+            data: dataF
+         },
+		 {
+			label:'Tous',
+            backgroundColor: 'rgba(42, 73, 45,0.4)',
+            borderColor: 'rgb(42, 73, 45)',
+			borderDash: [],
+			pointBorderColor: 'rgba(90, 150, 160,0.7)',
+			pointBackgroundColor: 'rgba(120, 150, 160,0.8)',
+			pointBorderWidth: 3,
+			pointHoverRadius:5,
+			pointRadius: 2,
+			pointHitRadius: 10,
+			fill : false,
+            data: dataT
+		 }
+		 ]
+      },
+      options: {
+         responsive: 'true',
+		 title: {
+			text: 'Impact du confinement sur le chômage en France',
+			display: true
+		 },
+		 scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: 'Mois'
+						}
+					}],
+					yAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: 'Chômage (en Milliers)'
+						}
+					}]
+				}
+      }
+		});
+		/* THIS IS HOW TO CONTROL CHART SIZE*/
+		myChart.canvas.parentNode.style.height = '800px';
+		myChart.canvas.parentNode.style.width = '850px';
+	</script>
+	<script>
+		function ChangeChart(){
+			var age = document.getElementById("age").value;
+			switch(age)
+			{
+				case "moins 25 ans":
+					myChart.config.data.datasets[0].data = dataHJ;
+					myChart.config.data.datasets[1].data = dataFJ;
+					myChart.config.data.datasets[2].data = dataTJ;
+					break;
+				case "plus 25 ans":
+					myChart.config.data.datasets[0].data = dataHV;
+					myChart.config.data.datasets[1].data = dataFV;
+					myChart.config.data.datasets[2].data = dataTV;
+					break;
+				case "tous":
+					myChart.config.data.datasets[0].data = dataH;
+					myChart.config.data.datasets[1].data = dataF;
+					myChart.config.data.datasets[2].data = dataT;
+					break;
+				default:
+					break;
+					
+			}
+			myChart.update();
+			}
+			</script>
+    </section>
     
 </body>
 </html>
