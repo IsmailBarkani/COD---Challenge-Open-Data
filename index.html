@@ -249,7 +249,7 @@ nav ul li a:hover::after{
 }
 
 .carousel-image-4{
-    background: url('./img/pib.jpg');
+    background: url('https://i.imgur.com/DjoTcqX.jpg');
     background-size: cover;
 }
 
@@ -674,8 +674,8 @@ g{
                            
                     <!--TEXT-->
                     <div class="col bienvenu" style="margin-bottom: 200px;">  
-                        <h2 class="display-4 d-inline mylead">Impact environnemental</h2>
-                         <p class="lead textbg"> Les mesures de confinement ont entraîné un fort ralentissement de l'activité économique et des transports. Les émissions de polluants atmosphériques ont mécaniquement été réduites. </p>
+                        <h2 class="display-4 d-inline titreB text">Impact environnemental</h2>
+                         <p class="lead textbg"> Les mesures de confinement ont entraîné un fort ralentissement de l'activité économique et des transports... </p>
                          <a style="margin-left: 420px; margin-top: 20px;" href="#sectionMilieu" id="btn" ></a>
                          <form action="#" method="POST">
                     </div>
@@ -707,8 +707,7 @@ g{
                               <h2 class="display-4 d-inline titreB text">Impact Social</h2>
                           <br>
                          <p class="lead textbg"> Le graphe ci-dessous permet de visualiser l'impact du confinement sur le chômage en France de manière
-                          interactive. En effet, il est possible de combiner plusieurs facteurs de recherche ( tranches d'âge et le sexe)
-                          et d'en tirer les résultats associés que se soit croissance ou décroissance du chômage</p>
+                          interactive.....</p>
                           <a style="margin-left: -95px; margin-top: 20px;" href="#chomage" id="btn" ></a>
                          <form action="#" method="POST">  
                         </div>
@@ -727,9 +726,7 @@ g{
                               <h2 class="display-4 d-inline mylead">Impact économique</h2>
                           <br>
                          <p class="lead textbg1"> Après avoir connu une stabilité lors des trois trimestres de l'année 2019, <br>
-                          le PIB français a connu un changement remarquable et spécialement dans la période du confinement. <br>
-                           Cela est expliqué par l'arrêt des différentes activités économique  et  l'influence négative <br>
-                            sur les chiffres des importations et exportations ce qui exprime cette chute </p>
+                          le PIB français a connu un changement remarquable et spécialement dans la période du confinement... </p>
                             <a style="margin-left: -95px; margin-top: 20px;" href="#pib" id="btn" ></a>
                           </div>
                       </div>
@@ -747,7 +744,7 @@ g{
                             <div class="col">
                             <h2 class="display-4 d-inline titreB text">Impact énergétique</h2>
                         <br>
-                       <p class="lead textbg"> A partir des données extraites de "RTE", Réseau de transport d'électricité en France, le graphe suivant illustre l'évolution de la consommation mensuelle d'énergie éléctrique du Octobre 2019 à Mai 2020</p>
+                       <p class="lead textbg"> À partir des données extraites de "RTE", Réseau de transport d'électricité en France...</p>
                         <a style="margin-left: -95px; margin-top: 20px;" href="#conso" id="btn" ></a>
                        <form action="#" method="POST">  
                       </div>
@@ -780,8 +777,7 @@ g{
                   <h3>Challenge Open Data</h3>
                   <p>L’objectif de l’application
                     réalisée pour ce projet est de visualiser le changement de la qualité de l’air, déterminer l’évolution du
-                    taux de chômage, le changement du PIB et la consommation de l’électricité dans les différents pays de
-                    l’union européenne dans la période avant et après le confinement...</p>                
+                    taux de chômage, le changement du PIB et la consommation de l’électricité  en France dans la période avant et après le confinement...</p>                
                   <a href="rapport.html" class="btn btn2">Plus d'information</a>
               </div>
               <div class="col mymarginlefticon mypaddingtop mypaddingbottom propo2">
@@ -798,7 +794,7 @@ g{
         <div class="row">
             <div class="col">
                 <div class="container pt-5 textmilieu">
-                    <p style="font-size: 0.55cm;"> cette carte présente l’impact sur la qualité de l’air des mesures de restriction d’activité, <br>
+                    <p style="font-size: 0.55cm;"> Cette carte présente l’impact sur la qualité de l’air des mesures de restriction d’activité, <br>
                        mises en place pendant la période de confinement due à la lutte contre la pandémie <br>
                         du Coronavirus COVID-19 (entre le 18 mars et le 10 mai), dont la conséquence la plus visible est <br>
                          la réduction du trafic routier.
@@ -976,7 +972,8 @@ g{
 		var dataHV = [];
 		var dataTV= [];
 		var dataFJ = [];
-		var dataFV = [];
+    var dataFV = [];
+    var myChartY;
 	
 	$.getJSON("https://raw.githubusercontent.com/IsmailBarkani/COD/master/JSON/Chomage.json?token=AMHRRM6XHX5FYF4FUIYNB4C7PMTIY", function(data) {
 	
@@ -1008,10 +1005,8 @@ g{
 			
 		});
 	});
-   
-	});
-	var ctx = document.getElementById('myChartY').getContext('2d');
-    var myChartY = new Chart(ctx, {
+  var ctx = document.getElementById('myChartY').getContext('2d');
+     myChartY = new Chart(ctx, {
       type: 'line',
       "data": {
          labels: labels,
@@ -1081,6 +1076,8 @@ g{
 		/* THIS IS HOW TO CONTROL CHART SIZE*/
 		myChartY.canvas.parentNode.style.height = '800px';
 		myChartY.canvas.parentNode.style.width = '850px';
+	});
+	
 	</script>
 	<script>
 		function ChangeChart(){
@@ -1134,7 +1131,7 @@ g{
                       <p style="font-size: 0.55cm;">Après avoir connu une stabilité lors des quatre trimestres de l'année 2019, <br>
                          le PIB français a connu un changement remarquable et spécialement dans la période du confinement. <br>
                           Cela est expliqué par l'arrêt des différentes activités économique  et  l'influence négative <br>
-                           sur les chiffres des importations et exportations.</p>
+                           sur les chiffres des importations et des exportations.</p>
                       <br>
                       <br>
                   </div>

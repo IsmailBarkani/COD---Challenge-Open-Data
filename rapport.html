@@ -789,6 +789,7 @@ g{
   </nav>
    
    
+
    
    <!-- PAGE HEADER -->
   <header id="p-header">
@@ -804,10 +805,106 @@ g{
   </header>
    
    
+  <div style="font-size: 17px;">
+    <h4 style="margin-top: 50px; margin-left: 150px;">Introduction</h4>
    
+   <p style="margin-left: 150px; width: 1000px;">
+  Le projet challenge Open Data nous offre l’opportunité de créer une application web pour manipuler
+  les différents jeux de données et les exploiter en utilisant des divers outils. L’objectif de l’application
+  réalisée pour ce projet est de visualiser le changement de la qualité de l’air, déterminer l’évolution du
+  taux de chômage, le changement du PIB et la consommation de l’électricité en France dans la période avant et après le confinement.
+   </p>
    
-   
-   
+   <h4 style="margin-top: 50px; margin-left: 150px;" > Description des jeux de données</h4>
+   <p style="margin-left: 150px; width: 1000px;">
+    Les données choisies touchent les sujets suivant : <br> <br>
+    &bull; Le jeu de données (de l'environnement) nous donne des informations concernant la concentration des quatre polluants
+    d’air : le NO2, le SO2, l’O3 et les particules fines (PM10) en France. Ces indicateurs nous permettent de spécifier la classe de l’indicateur ATMO (varie
+    entre 1 et 10) qui détermine la qualité de l’air avant et après la période du confinement.<br> <br>
+    &bull;Le jeu de données (évolution du chômage) correspondant est tiré du site web Eurostat et englobe la période 2019-2020. Ce dernier contient
+      nombre de chômeurs déclarés mensuellement en France. Cette classification est réalisée en tenant compte du sexe et des tranches d'âge de la population.<br> <br>
+    &bull;  La consommation mensuelle de l’électricité en France, nous aide à bien déterminer la variation
+    de cette ressource avant et après la période de confinement. <br> <br>
+    &bull; Le PIB nous donne une idée globale sur le développement économique en France. En effet, le jeu de données lié a cet indicateur nous révéle le changement remarquable dans la période avant et après le confinement.
+  </p>
+
+
+  <h4 style="margin-top: 50px; margin-left: 150px;">Architecture</h4>
+    <p style="margin-left: 150px; width: 1000px;">
+      Cette figure illustre l’architecture :
+    </p>
+  <h4 style="margin-top: 50px; margin-left: 150px;"> Traitement de données</h4>
+
+  <h5 style="margin-top: 10px; margin-left: 150px;"> Environnement</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Ils existent deux jeux de données pour l’indice ATMO, où le premier contient la valeur d’ATMO
+par jour et le deuxième contient les quatre indices nécessaires pour le calcul, de ce fait nous avons choisi
+d’écrire un programme python qui traite les deux jeux de données afin de créer un fichier json avec
+la valeur d’ATMO par mois pour chaque ville de France disponible dans l’un des fichiers de départ.
+  </p>
+
+  <h5 style="margin-top: 10px; margin-left: 150px;">Chômage</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Ce jeu de données est en format excel avec une structure spécial, plus précisément il contient des
+    lignes vides ou du texte entre chaque partie du fichier. Par conséquent, nous avons commencé par une
+    étude profonde avant de passer au traitement via un programme python.    
+  </p>
+
+  <h5 style="margin-top: 10px; margin-left: 150px;"> PIB (produit intérieur brut)</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Ce jeu de données ne nécessitait pas beaucoup du travail, nous avons juste appliqué un filtre avec
+    un programme python qui permet de récupérer les données de France.
+    
+  </p>
+
+  <h5 style="margin-top: 10px; margin-left: 150px;">Consommation d'électricité</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Les données mise à disposition par l’API "consolidated consumption" reflètent la puissance ainsi que l'énergie journalière appelée par la consommation d'électricité en France. Pour assurer la disponibilité des données, nous les avons récupérées, puis stockées dans des fichiers json dans notre repository Github.
+    Nous chargeons ces données, calculons la consommation mensuelle qui est déterminée par la moyenne des valeurs journalières pour être enfin exploités par le graphe.
+  </p>
+
+
+
+  <h4 style="margin-top: 50px; margin-left: 150px;" >Visualisation </h4>
+  <h5 style="margin-top: 10px; margin-left: 150px;"> Limitations</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Le jeu de donnnées relatif à l'environnement ne contient pas beaucoup de détails par rapport aux plusieurs villes.
+    En effet, nous avons menés notre étude sur une vingtaine de villes pour valider notre travail.
+   Les villes et régions concérnées sont : <br>
+    - Région haut de france <br>
+    - Ville de Grenoble, Lyon, Bordeaux, Rouen et d'autres villes... <br>
+    Le jeu de données relatif à l'impact énergétique ne contient pas les données du mois de Janvier.
+     Pour valider notre étude, nous avons établi une approximation avec les données du mois de décembre.
+    </p>
+ 
+
+  <h5 style="margin-top: 10px; margin-left: 150px;"> Description d'interface</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Pour l'interface utilisateur, nous avons produit une page web subdiviser en quatre sections dont chacune représente
+    un sujet de visualisation à savoir l'impact du confinement sur l'environnement, le chômage, le produit interne brut (PIB)
+    et la consommation d'électricité. Dans cette architecture l'utilisateur
+    peut visualiser l'un des quatre sujets juste en se servant du bouton de navigation
+    'Voir plus' qui l'envoi vers la section correspondante. L'utilisateur
+    peut ainsi appliquer les filtres de recherche et interagir avec les graphes implémentés.
+    </p>
+  <h5 style="margin-top: 10px; margin-left: 150px;">La cartographie</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Ce choix de représentation est basé sur l'intention de visualiser l'impact du confinement sur l'environnement dans les villes
+     de la France. En effet, La carte affiche ces villes avec une échelle de couleur classifiée selon le facteur ATMO. Un slider
+     est mis en bas afin de parcourir les mois, avant et après confinement ainsi d'en tirer l'impact. En plus, la carte permet 
+     l'affichage d'un graphe en courbe illustrant les détails des gazes contribuant à la détermination du niveau d'ATMO à savoir 
+     : SO2, No2, PM10, O3.
+  </p>
+
+  <h5 style="margin-top: 10px; margin-left: 150px;">Le graphique en courbe</h5>
+  <p style="margin-left: 150px; width: 1000px;">
+    Ce type de graphe repose essentiellement sur le changement des données dans le temps.
+     Ainsi, il permet de visualiser l'impact de la période de confinement en France que ce soit
+      au niveau environnemental, social, économique ou énergétique.
+  </p>
+  </div>
+
+  
     <section id="blog" class="py-3" style="background-color: #fff">
         <div class="container-fluid" style="margin-top: 50px;">
             <div class="container">
