@@ -1,0 +1,218 @@
+[
+    {
+        "Date": "2019-11",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2437,
+                "Males percentage": 0.52,
+                "Females percentage": 0.48
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 571,
+                "Males percentage": 0.58,
+                "Females percentage": 0.42
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1866,
+                "Males percentage": 0.5,
+                "Females percentage": 0.5
+            }
+        ]
+    },
+    {
+        "Date": "2019-12",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2429,
+                "Males percentage": 0.52,
+                "Females percentage": 0.48
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 575,
+                "Males percentage": 0.58,
+                "Females percentage": 0.42
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1854,
+                "Males percentage": 0.5,
+                "Females percentage": 0.5
+            }
+        ]
+    },
+    {
+        "Date": "2020-01",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2402,
+                "Males percentage": 0.51,
+                "Females percentage": 0.49
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 561,
+                "Males percentage": 0.55,
+                "Females percentage": 0.45
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1841,
+                "Males percentage": 0.49,
+                "Females percentage": 0.51
+            }
+        ]
+    },
+    {
+        "Date": "2020-02",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2269,
+                "Males percentage": 0.5,
+                "Females percentage": 0.5
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 525,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1744,
+                "Males percentage": 0.49,
+                "Females percentage": 0.51
+            }
+        ]
+    },
+    {
+        "Date": "2020-03",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2195,
+                "Males percentage": 0.51,
+                "Females percentage": 0.49
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 517,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1677,
+                "Males percentage": 0.5,
+                "Females percentage": 0.5
+            }
+        ]
+    },
+    {
+        "Date": "2020-04",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 2275,
+                "Males percentage": 0.53,
+                "Females percentage": 0.47
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 590,
+                "Males percentage": 0.55,
+                "Females percentage": 0.45
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1685,
+                "Males percentage": 0.53,
+                "Females percentage": 0.47
+            }
+        ]
+    },
+    {
+        "Date": "2020-05",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 1975,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 536,
+                "Males percentage": 0.55,
+                "Females percentage": 0.45
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1439,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            }
+        ]
+    },
+    {
+        "Date": "2020-06",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 1866,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 512,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1355,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            }
+        ]
+    },
+    {
+        "Date": "2020-07",
+        "Unit": 1000,
+        "Data": [
+            {
+                "Age": "Total",
+                "Total": 1996,
+                "Males percentage": 0.52,
+                "Females percentage": 0.48
+            },
+            {
+                "Age": "Less than 25 years",
+                "Total": 509,
+                "Males percentage": 0.54,
+                "Females percentage": 0.46
+            },
+            {
+                "Age": "From 25 to 74 years",
+                "Total": 1487,
+                "Males percentage": 0.52,
+                "Females percentage": 0.48
+            }
+        ]
+    }
+]
