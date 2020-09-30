@@ -804,7 +804,16 @@ g{
     </div>
   </header>
    
-   
+  <h3 style="margin-top:25px; margin-left: 150px;">Challenge open data</h3> 
+  <p style="margin-left: 170px; font-size: 15px;">
+    <span style="font-weight: bold; font-style: italic;">Réalisé par:</span> <br>
+    &bull; BARKANI Ismail <br>
+    &bull; BENIMMAR Maryam <br> 
+    &bull; BOUZIANE Ilyas <br>
+    &bull; SAOUDI Mehdi <br>
+    &bull; TENNIA Youssef 
+  </p>
+
   <div style="font-size: 17px;">
     <h4 style="margin-top: 50px; margin-left: 150px;">Introduction</h4>
    
@@ -831,11 +840,14 @@ g{
 
   <h4 style="margin-top: 50px; margin-left: 150px;">Architecture</h4>
     <p style="margin-left: 150px; width: 1000px;">
-      Cette figure illustre l’architecture :
+      Cette figure illustre l’architecture : <br>
+      <div style="text-align: center;">
+        <img  src="https://i.imgur.com/l03cv15.png" alt="Architecture">
+      </div>
     </p>
   <h4 style="margin-top: 50px; margin-left: 150px;"> Traitement de données</h4>
 
-  <h5 style="margin-top: 10px; margin-left: 150px;"> Environnement</h5>
+  <a href="https://github.com/IsmailBarkani/COD/blob/master/Traitement/ENV.py" style="text-decoration: none; color:#000;"><h5 style="margin-top: 10px; margin-left: 150px;"> Environnement</h5></a> 
   <p style="margin-left: 150px; width: 1000px;">
     Ils existent deux jeux de données pour l’indice ATMO, où le premier contient la valeur d’ATMO
 par jour et le deuxième contient les quatre indices nécessaires pour le calcul, de ce fait nous avons choisi
@@ -843,21 +855,26 @@ d’écrire un programme python qui traite les deux jeux de données afin de cr�
 la valeur d’ATMO par mois pour chaque ville de France disponible dans l’un des fichiers de départ.
   </p>
 
-  <h5 style="margin-top: 10px; margin-left: 150px;">Chômage</h5>
+  <a href="https://github.com/IsmailBarkani/COD/blob/master/Traitement/chomage.py" style="text-decoration: none; color:#000;"><h5 style="margin-top: 10px; margin-left: 150px;"> Chômage</h5></a> 
+
   <p style="margin-left: 150px; width: 1000px;">
     Ce jeu de données est en format excel avec une structure spécial, plus précisément il contient des
     lignes vides ou du texte entre chaque partie du fichier. Par conséquent, nous avons commencé par une
     étude profonde avant de passer au traitement via un programme python.    
   </p>
 
-  <h5 style="margin-top: 10px; margin-left: 150px;"> PIB (produit intérieur brut)</h5>
+  <a href="https://github.com/IsmailBarkani/COD/blob/master/Traitement/PIB.py" style="text-decoration: none; color:#000;"><h5 style="margin-top: 10px; margin-left: 150px;"> PIB (produit intérieur brut)</h5></a> 
+
+  <h5 style="margin-top: 10px; margin-left: 150px;"> </h5>
   <p style="margin-left: 150px; width: 1000px;">
     Ce jeu de données ne nécessitait pas beaucoup du travail, nous avons juste appliqué un filtre avec
     un programme python qui permet de récupérer les données de France.
     
   </p>
 
-  <h5 style="margin-top: 10px; margin-left: 150px;">Consommation d'électricité</h5>
+  <a href="https://data.rte-france.com/" style="text-decoration: none; color:#000;"><h5 style="margin-top: 10px; margin-left: 150px;"> Consommation d'électricité</h5></a> 
+
+  <h5 style="margin-top: 10px; margin-left: 150px;"></h5>
   <p style="margin-left: 150px; width: 1000px;">
     Les données mise à disposition par l’API "consolidated consumption" reflètent la puissance ainsi que l'énergie journalière appelée par la consommation d'électricité en France. Pour assurer la disponibilité des données, nous les avons récupérées, puis stockées dans des fichiers json dans notre repository Github.
     Nous chargeons ces données, calculons la consommation mensuelle qui est déterminée par la moyenne des valeurs journalières pour être enfin exploités par le graphe.
